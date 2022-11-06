@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Lista</title>
+
+    <script src = "script.js"></script>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div id = "menu-lista">
+        <h1 id = "textLista">Lista Simples</h1>
+        <input placeholder = "Digite o Item...." type = "text" id = "textItem">
+        <button onclick = "adicionar()" id = "addItem">Adicionar</button>
+        <input placeholder = "Pesquise o item...." id = "pesquisa">
+        <button onclick = "pesquisar()" id = "seach">Pesquisar</button>
+        <div id = "ResultadoPesquisa"></div>
+        <div id = "lista"></div>
+        <input placeholder="Digite o item a ser removido...." id = "remover">
+        <button id = "apagarTudo"  onclick = "remover()">Remover</button>
+        <button onclick = "ordernar()">Ordem Alfabética</button>
+    </div>
+    <footer><a href = "">Link para meu GitHub</a></footer>
+</body>
+</html>
